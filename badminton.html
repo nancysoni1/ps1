@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>badminton</title>
+        <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+        <style>
+            .slider {width: 500px;
+               height: 300px;
+               margin-left: auto;
+               background-color: rgba(255, 255, 0, 0.066);
+               margin-right: auto;
+               margin-top:0px;
+               overflow:hidden;
+               text-align:center;}
+            .image-container {width: 1500px;
+               height: 300px;
+               clear :both;
+               background-color: rgba(177, 68, 170, 0.21); 
+               position: relative;
+               -webkit-transition: left 2s;
+               -moz-transition: left 2s;
+               -o-transition: left 2s;
+               transition: left 2s;}
+            .slide {float: left;
+               position: relative;}
+            #slide-1:target ~ .image-container {left: 0px;}
+               #slide-2:target ~ .image-container {left: -500px;}
+            #slide-3:target ~ .image-container {left: -1000px;}
+            .buttons {position: relative;
+               top: -20px;}
+            .buttons a { display: inline-block;
+               height: 15px;
+               width: 15px;
+                border-radius: 50px;
+                 background-color: rgba(70, 6, 33, 0)  }
+            h2 {font-size:50px;
+               font-family:"Lemon" ;
+               text-align:center;
+               font-weight:lighter;
+               text-shadow:4px 4px #5e0a5144;
+               letter-spacing:0.3em;
+                background-color:rgba(65, 37, 109, 0.384);}
+             </style>
+          
+    </head>
+    <body>
+        <h2>BADMINTON</h2>
+        <div class="slider">
+            <span id="slide-1"></span>
+            <span id="slide-2"></span>
+            <span id="slide-3"></span>
+            <div class="image-container">
+              <img src="https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFkbWludG9ufGVufDB8fDB8fHww" class="slide" width="500" height="300" />
+              <img src="https://www.shutterstock.com/image-photo/badminton-racket-shuttlecock-motion-sport-260nw-1592944909.jpg" class="slide" width="500" height="300" />
+              <img src="https://images.theconversation.com/files/134386/original/image-20160817-13683-gpi7mg.jpg?ixlib=rb-1.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip" class="slide" width="500" height="300" />
+            </div>
+            <div class="buttons">
+              <a href="#slide-1"></a>
+              <a href="#slide-2"></a>
+              <a href="#slide-3"></a>
+            </div>
+          </div>
+          <h3>About</h3>
+          <p>Badminton is a racquet sport played using racquets to hit a shuttlecock across a net. Although it may be played with larger teams, the most common forms of the game are "singles" (with one player per side) and "doubles" (with two players per side). Points are scored by striking the shuttlecock with the racquet and landing it within the other team's half of the court. To learn more about the history of the game click <a href="https://en.wikipedia.org/wiki/Badminton#History">history</a></p>
+       <h3>Laws</h3>
+          <p>The following information is a simplified summary of badminton rules based on the BWF Statutes publication,<a href="https://en.wikipedia.org/wiki/Badminton#cite_note-laws-16">laws of badminton</a></p>
+       <h3>Reference</h3>
+    <iframe   width="600" height="300" src="https://www.youtube.com/embed/1UIhKZCPMYM?si=NNZVRArlojSmoR1q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+    
+    </body>
+          </html>
